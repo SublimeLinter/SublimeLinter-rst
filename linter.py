@@ -26,7 +26,6 @@ class Rst(Linter):
 
     def run(self, cmd, code):
         """Attempt to parse code as reStructuredText."""
-
         # Generate a new parser
         parser = Parser()
 
