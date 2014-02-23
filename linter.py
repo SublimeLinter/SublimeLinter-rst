@@ -34,6 +34,7 @@ class Rst(Linter):
 
         document = docutils.utils.new_document(None, settings=settings)
         document.reporter.stream = None
+        document.reporter.halt_level = 5
 
         # Collect errors via an observer
         def error_collector(data):
@@ -62,7 +63,7 @@ class Rst(Linter):
                 # self so let's ignore it.
                 continue
 
-            if data.type == 'ERROR':
+            if data.level >= 3:
                 error_type = highlight.ERROR
             else:
                 error_type = highlight.WARNING
