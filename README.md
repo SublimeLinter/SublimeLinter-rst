@@ -8,6 +8,14 @@ This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) pro
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here](http://sublimelinter.readthedocs.org/en/latest/installation.html).
 
+### Linter installation
+Before installing this plugin, you must ensure that `docutils` is installed on your system. To install `docutils`, do the following:
+
+1. Install [Python 3](http://python.org) and [pip](http://www.pip-installer.org/en/latest/installing.html).
+
+1. Install `docutils` by typing the following in a terminal, replacing ‘x’ with the minor version installed on your system: `[sudo] pip-3.x install docutils`
+
+### Plugin installation
 Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
 
 To install via Package Control, do the following:
