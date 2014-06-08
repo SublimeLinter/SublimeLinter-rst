@@ -12,10 +12,6 @@
 
 from SublimeLinter.lint import highlight, Linter
 
-import docutils
-from docutils.nodes import Element
-from docutils.parsers.rst import Parser
-
 
 class Rst(Linter):
 
@@ -26,6 +22,10 @@ class Rst(Linter):
 
     def run(self, cmd, code):
         """Attempt to parse code as reStructuredText."""
+        import docutils
+        from docutils.nodes import Element
+        from docutils.parsers.rst import Parser
+
         # Generate a new parser
         parser = Parser()
 
