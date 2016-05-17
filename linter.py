@@ -14,7 +14,6 @@ from SublimeLinter.lint import highlight, Linter
 
 
 class Rst(Linter):
-
     """Provides an interface to docutils' restructuredtext checks."""
 
     syntax = ('restructuredtext', 'restructuredtext improved')
