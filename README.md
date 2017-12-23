@@ -1,6 +1,14 @@
 SublimeLinter-rst
 =================
 
+**This package will stop working in SublimeLinter 4.**
+
+Read more about it [here](https://github.com/SublimeLinter/SublimeLinter3/issues/728). If you want to do something about that please get in touch at the [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) repo. 
+
+
+-----
+
+
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-rst.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-rst)
 
 This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) provides an interface to the [docutils' reStructuredText parser](http://docutils.sourceforge.net/docs/dev/hacking.html#id3) built into Sublime Text. It will be used with files that have the “reStructuredText” syntax.
